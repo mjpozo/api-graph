@@ -26,8 +26,9 @@
       version    : 'v2.8'
     });
     FB.AppEvents.logPageView();   
+  };
 
-(function(d, s, id){
+  (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
      js = d.createElement(s); js.id = id;
@@ -41,7 +42,7 @@ FB.getLoginStatus(function(response) {
 });
 
 
-/*{
+{
     status: 'connected',
     authResponse: {
         accessToken: '...',
@@ -49,7 +50,7 @@ FB.getLoginStatus(function(response) {
         signedRequest:'...',
         userID:'...'
     }
-}*/
+}
 
 
 function checkLoginState() {
@@ -57,10 +58,6 @@ function checkLoginState() {
     statusChangeCallback(response);
   });
 }
-
-  };
-
-  
 	</script>
 </body>
 </html>
