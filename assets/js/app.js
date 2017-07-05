@@ -23,7 +23,7 @@ FB.getLoginStatus(function(response) {
 });
 
 
-{
+/*{
     status: 'connected',
     authResponse: {
         accessToken: '...',
@@ -31,7 +31,7 @@ FB.getLoginStatus(function(response) {
         signedRequest:'...',
         userID:'...'
     }
-}
+}*/
 
 
 function checkLoginState() {
